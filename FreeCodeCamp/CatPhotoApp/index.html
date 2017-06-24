@@ -1,4 +1,3 @@
-
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -12,10 +11,13 @@
     <li>lasagna</li>
   </ul>
   <p>Top 3 things cats hate:</p>
-  <ul>
+  <ol>
     <li>flea treatment</li>
     <li>thunder</li>
-    <li>other cat</li>
-  </ul>
-  <input type="text" placeholder="cat photo URL">
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
 </main>
