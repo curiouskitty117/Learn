@@ -1,3 +1,4 @@
+
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -17,8 +18,11 @@
     <li>other cats</li>
   </ol>
   <form action="/submit-cat-photo">
-    <label><input type="radio" name="indoor-outdoor">indoor</label>
-    <label><input type="radio" name="indoor-outdoor">outdoor</label><br>
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality"> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
   </form>
